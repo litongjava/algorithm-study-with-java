@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 import org.junit.Test;
 
+import com.litongjava.algorithm.beginner.AlgorithmUtils;
+
 /**
  * @author Ping E Lee
  *
