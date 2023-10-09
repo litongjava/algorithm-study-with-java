@@ -1,11 +1,11 @@
-package com.litongjava.algorithm.beginner;
+package com.litongjava.algorithm.beginner.class05;
 
 import java.util.HashSet;
 
 /**
  * @author Ping E Lee
  */
-public class BitMap {
+public class Class02_BitMap {
 
   /**
    * 实现位图
