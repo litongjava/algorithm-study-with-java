@@ -4,16 +4,15 @@ import java.util.HashSet;
 
 /**
  * @author Ping E Lee
- *
  */
-public class Code0151_BitMap {
+public class BitMap {
 
   /**
    * 实现位图
-   * @author Ping E Lee
    *
+   * @author Ping E Lee
    */
-  static class BitMap {
+  public static class BitMap {
     private long[] bits;
 
     public BitMap(int max) {
@@ -64,7 +63,7 @@ public class Code0151_BitMap {
       }
     }
     for (int num = 0; num <= max; num++) {
-      if(bitMap.contains(num)!=set.contains(num)) {
+      if (bitMap.contains(num) != set.contains(num)) {
         System.out.println("Oops");
       }
     }
